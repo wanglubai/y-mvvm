@@ -140,6 +140,7 @@ var compileUtil = {
         }
     },
 
+    //获取mvvm实例下data key数值
     _getVMVal: function(vm, exp) {
         var val = vm;
         exp = exp.split('.');
